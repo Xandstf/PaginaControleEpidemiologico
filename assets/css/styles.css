@@ -1,0 +1,37 @@
+header.masthead {
+  background: linear-gradient(0deg,#68ed75,#32ff47);
+}
+
+header.masthead .bg-circle {
+  background: linear-gradient(0deg,#56ff67,#7fff8c);
+}
+
+h1 {
+  font-family: 'Oswald';
+}
+
+h2 {
+  font-family: 'Oswald';
+}
+
+.nav-item, .nav-link {
+  font-family: 'Oswald';
+  font-weight: 100 !important;
+}
+
+.juntarLinha {
+  line-height: 1;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #66FF75 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
