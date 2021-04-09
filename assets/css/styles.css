@@ -35,3 +35,34 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  height: 100%;
+}
+
+.masthead.backgroundAbstractGreen {
+  height: 100%;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(78,186,88) !important;
+  border-color: rgb(78,186,88);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem rgba(12,84,0,0.5);
+}
+
+.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+  background: rgb(78,186,88) !important;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #34bf43!important;
+  border-color: #34bf43!important;
+}
+
+.btn.btn-primary.btn-block {
+  border: none;
+}
+
