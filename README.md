@@ -1,2 +1,2 @@
-# P-ginaControleEpidemiologico
-Página Web referente ao trabalho de TC1
+# PáginaControleEpidemiologico
+Página Web referente ao trabalho 2 de TC1
