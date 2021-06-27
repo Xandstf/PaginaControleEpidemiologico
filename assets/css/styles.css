@@ -70,3 +70,11 @@ img {
 ul {
   text-align: left;
 }
+
+footer {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+}

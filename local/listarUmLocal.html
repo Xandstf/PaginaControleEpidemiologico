@@ -33,29 +33,24 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive" style="text-align: center; padding-top: 20px">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link" href="../index.html" style="font-size: 15.8px">INÍCIO</a></li>
-						<li class="nav-item"><a class="nav-link" href="dashLocal.html" style="font-size: 15.8px">LOCAL</a></li>
-						<li class="nav-item"><a class="nav-link" href="/praga/dashPraga.html" style="font-size: 15.8px">PRAGA</a></li>
+						<li class="nav-item"><a class="nav-link" href="/local/dashLocal.html" style="font-size: 15.8px">LOCAL</a></li>
+						<li class="nav-item"><a class="nav-link" href="dashPraga.html" style="font-size: 15.8px">PRAGA</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
+		<header class="text-center masthead" style="padding-top: 100px">
+			<h1 class="text-center">LOCAIS</h1>
+		</header>
 		<div class="content">
-			<div class="container">
-				<section class="register-photo" style="background: rgba(241, 247, 252, 0)">
-					<div class="form-container">
-						<div class="image-holder"></div>
-						<form method="post">
-							<h2 class="text-center">CADASTRAR LOCAL</h2>
-							<div class="form-group"><input id="cep_ponto_central" name="cep_ponto_central" class="form-control" type="number" placeholder="CEP Ponto Central" /></div>
-							<div class="form-group"><input id="raio" name="raio" class="form-control" type="number" placeholder="Raio" /></div>
-							<div class="form-group"><input id="populacao" name="populacao" class="form-control" type="number" placeholder="População" /></div>
-							<div class="form-group"><textarea id="caracteristicas" name="caracteristicas" class="form-control" placeholder="Características" style="height: 80px"></textarea></div>
-							<div class="form-group">
-								<button class="btn btn-primary btn-block" type="submit" style="background: rgb(95, 240, 109)">CADASTRAR</button
-								><a href="dashLocal.html" style="color: rgb(55, 55, 55)"><br />Voltar para dashboard<br /><br /></a>
-							</div>
-						</form>
+			<div class="container" style="text-align: center;">
+				<section style="background-color: white; padding: 40px 20px">
+					<p>Selecione o local que gostaria de ver:</p>
+					<div class="btn-group btn-group-lg" style="gap:10px; margin-bottom: 40px;">
+						<a href="cep/14010035.html" class="btn btn-dark">Ribeirão Preto</a>
+						<a href="cep/13560000.html" class="btn btn-dark">São Carlos</a>
 					</div>
+					<a href="dashLocal.html" style="color: rgb(55, 55, 55)"><br />Voltar para dashboard<br /><br /></a>
 				</section>
 			</div>
 		</div>
