@@ -39,23 +39,46 @@
 				</div>
 			</div>
 		</nav>
+		<header class="text-center masthead" style="padding-top: 100px">
+			<h1 class="text-center">LOCAIS</h1>
+		</header>
 		<div class="content">
 			<div class="container">
-				<section class="register-photo" style="background: rgba(241, 247, 252, 0)">
-					<div class="form-container">
-						<div class="image-holder"></div>
-						<form method="post">
-							<h2 class="text-center">CADASTRAR LOCAL</h2>
-							<div class="form-group"><input id="cep_ponto_central" name="cep_ponto_central" class="form-control" type="number" placeholder="CEP Ponto Central" /></div>
-							<div class="form-group"><input id="raio" name="raio" class="form-control" type="number" placeholder="Raio" /></div>
-							<div class="form-group"><input id="populacao" name="populacao" class="form-control" type="number" placeholder="População" /></div>
-							<div class="form-group"><textarea id="caracteristicas" name="caracteristicas" class="form-control" placeholder="Características" style="height: 80px"></textarea></div>
-							<div class="form-group">
-								<button class="btn btn-primary btn-block" type="submit" style="background: rgb(95, 240, 109)">CADASTRAR</button
-								><a href="dashLocal.html" style="color: rgb(55, 55, 55)"><br />Voltar para dashboard<br /><br /></a>
-							</div>
-						</form>
-					</div>
+				<section style="background-color: white; padding: 40px 20px">
+					<table class="table table-bordered table-striped">
+						<thead class="thead-dark">
+							<tr>
+								<th>CEP Ponto Central</th>
+								<th>Raio</th>
+								<th>População</th>
+								<th>Características</th>
+								<th>Ação</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>14010035</td>
+								<td>30 km</td>
+								<td>711.825</td>
+								<td>
+									Ribeirão Preto - Município no interior do estado de São Paulo, a cerca de 315km da capital. É dividido oficialmente em mais de 160 bairros, quatro regiões (Zona
+									Norte, Zona Sul, Zona Leste e Zona Oeste) e três administrações regionais (subprefeituras).
+								</td>
+								<td><button class="btn btn-danger">Excluir</button></td>
+							</tr>
+							<tr>
+								<td>13560000</td>
+								<td>18 km</td>
+								<td>254.484</td>
+								<td>
+									São Carlos - Município no interior do estado de São Paulo a cerda de 231 km da capital. Também conhecido como "Capital da Tecnologia" e "Capital do Clima". Possui
+									aproximadamente 270 bairros.
+								</td>
+								<td><button class="btn btn-danger">Excluir</button></td>
+							</tr>
+						</tbody>
+					</table>
+					<a href="dashLocal.html" style="color: rgb(55, 55, 55)"><br />Voltar para dashboard<br /><br /></a>
 				</section>
 			</div>
 		</div>

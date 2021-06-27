@@ -33,8 +33,8 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive" style="text-align: center; padding-top: 20px">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link" href="../index.html" style="font-size: 15.8px">INÍCIO</a></li>
-						<li class="nav-item"><a class="nav-link" href="dashLocal.html" style="font-size: 15.8px">LOCAL</a></li>
-						<li class="nav-item"><a class="nav-link" href="/praga/dashPraga.html" style="font-size: 15.8px">PRAGA</a></li>
+						<li class="nav-item"><a class="nav-link" href="/local/dashLocal.html" style="font-size: 15.8px">LOCAL</a></li>
+						<li class="nav-item"><a class="nav-link" href="dashPraga.html" style="font-size: 15.8px">PRAGA</a></li>
 					</ul>
 				</div>
 			</div>
@@ -45,14 +45,15 @@
 					<div class="form-container">
 						<div class="image-holder"></div>
 						<form method="post">
-							<h2 class="text-center">CADASTRAR LOCAL</h2>
-							<div class="form-group"><input id="cep_ponto_central" name="cep_ponto_central" class="form-control" type="number" placeholder="CEP Ponto Central" /></div>
-							<div class="form-group"><input id="raio" name="raio" class="form-control" type="number" placeholder="Raio" /></div>
-							<div class="form-group"><input id="populacao" name="populacao" class="form-control" type="number" placeholder="População" /></div>
-							<div class="form-group"><textarea id="caracteristicas" name="caracteristicas" class="form-control" placeholder="Características" style="height: 80px"></textarea></div>
+							<h1 class="text-center">ALTERAR PRAGA</h1>
+							<div class="form-group"><input id="codigo" name="codigo" class="form-control" type="number" placeholder="Código" /></div>
+							<div class="form-group"><input id="nome" name="nome" class="form-control" type="text" placeholder="Nome" /></div>
+							<div class="form-group"><input id="doencas_transmitidas" name="doencas_transmitidas" class="form-control" type="text" placeholder="Doenças Transmitidas" /></div>
+							<div class="form-group"><textarea id="tempo_vida" name="tempo_vida" class="form-control" placeholder="Tempo de vida" style="height: 80px"></textarea></div>
+							<div class="form-group"><textarea id="modos_combate" name="modos_combate" class="form-control" placeholder="Modos de combate" style="height: 80px"></textarea></div>
 							<div class="form-group">
 								<button class="btn btn-primary btn-block" type="submit" style="background: rgb(95, 240, 109)">CADASTRAR</button
-								><a href="dashLocal.html" style="color: rgb(55, 55, 55)"><br />Voltar para dashboard<br /><br /></a>
+								><a href="dashPraga.html" style="color: rgb(55, 55, 55)"><br />Voltar para dashboard<br /><br /></a>
 							</div>
 						</form>
 					</div>
@@ -60,10 +61,10 @@
 			</div>
 		</div>
 		<footer class="bg-black">
-            <div class="container">
-                <p class="text-center text-white m-0 small">Copyright&nbsp;© ControleEpidemiologico 2021</p>
-            </div>
-        </footer>
+			<div class="container">
+				<p class="text-center text-white m-0 small">Copyright&nbsp;© ControleEpidemiologico 2021</p>
+			</div>
+		</footer>
 		<script src="../assets/js/jquery.min.js"></script>
 		<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 	</body>
